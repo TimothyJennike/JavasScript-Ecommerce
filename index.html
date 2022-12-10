@@ -49,17 +49,12 @@
 
       <section id="produce">
 
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            Genre
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" id="Sport">Sport</a></li>
-            <li><a class="dropdown-item" id="Adventure">Adventure</a></li>
-          </ul>
-        </div>
-
-        <!-- <button type="button" id="btnSort" class="btn btn-secondary">Sort by Price</button> -->
+        <button type="button" id="Sport" onclick="sort()" class="btn btn-secondary">Sort by Price</button>
+        <h2 class="bg-warning">Genre</h2>
+            <select id="genre">
+              <option value="Sport">Sport</option>
+              <option value="Adventure">Adventure</option>
+            </select>
 
         <div class="container-fluid pt-5">
           <div class="row justify-content-evenly">
